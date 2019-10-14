@@ -1,4 +1,4 @@
-# ElliotMorris.Dev
+# Laravel mix boilerplate
 
 This is going to be used as a base for front end projects. In this boilerplate it includes SASS with the SCSS syntax, source maps for the SCSS files, a hot reloading live server, copying of assets such as SVG's and the use of PostHTML with the 'includes' plugin allowing you to separate your HTML into partials for making maintainable code.
 
@@ -10,25 +10,35 @@ These instructions will get you a copy of the project up and running on your loc
 
 A step by step series of examples that tell you how to get a development env running
 
-Firstly run to install all of the dependencies:
+## Project setup
 
 ```
 npm install
 ```
 
-Once this has run you can produce your dist files and watch for file updates by using:
+### Compiles and hot-reloads for development
 
 ```
-npm run watch
+npm run serve
 ```
 
-As for the local server open a new terminal window run and run:
+### Compiles and minifies for production
 
 ```
-npm run hot
+npm run build
 ```
 
-Once this is done you can now go to [http://localhost:8080](http://localhost:8080/) to view your project.
+### Run your tests
+
+```
+npm run test
+```
+
+### Lints and fixes files
+
+```
+npm run lint
+```
 
 ## Grid system
 
