@@ -1,0 +1,24 @@
+// Media Queries
+@mixin bp-sm {
+  @media (min-width: $small-devices-width) {
+    @content;
+  }
+}
+
+@mixin bp-md {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin bp-lg {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin bp-xl {
+  @media (min-width: $xl-screen-width) {
+    @content;
+  }
+}

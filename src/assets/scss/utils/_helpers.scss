@@ -1,0 +1,48 @@
+/*
+ * Convert px to rem
+ * —
+ * Param: pixel value
+ * Return: rem value
+ *
+ */
+ @function pxtorem($pixels) {
+
+  /* Convert px to rem using base font of 16px */
+  @return $pixels / 16px * 1rem;
+
+}
+
+/* 
+ * Returns rem value of 8-point grid system
+ * — 
+ * Param: pixel value
+ * Return: rem value
+ *
+ */
+@function space($pixels) {
+
+  /* Map px to rem values */
+  $spaceamounts: (
+    8: pxtorem(8px),
+    16: pxtorem(16px),
+    24: pxtorem(24px),
+    32: pxtorem(32px),
+    40: pxtorem(40px),
+    48: pxtorem(48px),
+    56: pxtorem(56px),
+    64: pxtorem(64px),
+    72: pxtorem(72px),
+    80: pxtorem(80px),
+    88: pxtorem(88px),
+    96: pxtorem(96px),
+    104: pxtorem(104px),
+    112: pxtorem(112px),
+  );
+
+  @return map-get($spaceamounts, $pixels);
+}
+
+.-no-gutters{
+  margin: 0;
+  padding: 0;
+}
