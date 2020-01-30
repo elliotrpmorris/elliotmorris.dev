@@ -8,17 +8,17 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmHero from "@/components/Hero.vue";
-import EmSocialBar from "@/components/SocialBar.vue";
+import EmContainer from '@/components/Container.vue';
+import EmHero from '@/components/Hero.vue';
+import EmSocialBar from '@/components/SocialBar.vue';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     EmContainer,
     EmHero,
-    EmSocialBar
-  }
+    EmSocialBar,
+  },
 };
 </script>
 

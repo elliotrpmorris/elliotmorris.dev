@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "navigation"
+  name: 'navigation',
 };
 </script>
 

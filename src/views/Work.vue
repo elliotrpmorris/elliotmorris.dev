@@ -5,7 +5,9 @@
         <em-card alto>
           <em-heading large mineShaft>Asda Money</em-heading>
           <em-page-text>
-            In my last role i was the main developer for the ASDA money site. Doing frontend work using technologies like AngularJS & Jquery and backend work with Umbraco.
+            In my last role i was the main developer for the ASDA money site.
+            Doing frontend work using technologies like AngularJS & Jquery
+            and backend work with Umbraco.
             <hr>
             <a class="link" href="https://money.asda.com">View Site!</a>
           </em-page-text>
@@ -23,7 +25,10 @@
         <em-card alto>
           <em-heading large mineShaft>Leeds Rhinos</em-heading>
           <em-page-text>
-            On this project i was tasked with creating all of the frontend templates which consisted of HTML, JS and CSS. I also worked on the Wordpress plugin which allowed us to get data from a feed provided by OPTA which enabled us to serve stats on the site.
+            On this project i was tasked with creating all of the frontend templates
+            which consisted of HTML, JS and CSS. I also worked on the Wordpress plugin
+            which allowed us to get data from a feed provided by OPTA
+            which enabled us to serve stats on the site.
             <hr>
             <a class="link" href="https://www.therhinos.co.uk/">View Site!</a>
           </em-page-text>
@@ -52,16 +57,16 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmRow from "@/components/Row.vue";
-import EmColumn from "@/components/Column.vue";
-import EmPageText from "@/components/PageText.vue";
-import EmHeading from "@/components/Heading.vue";
-import EmCard from "@/components/Card.vue";
-import EmSocialBar from "@/components/SocialBar.vue";
+import EmContainer from '@/components/Container.vue';
+import EmRow from '@/components/Row.vue';
+import EmColumn from '@/components/Column.vue';
+import EmPageText from '@/components/PageText.vue';
+import EmHeading from '@/components/Heading.vue';
+import EmCard from '@/components/Card.vue';
+import EmSocialBar from '@/components/SocialBar.vue';
 
 export default {
-  name: "work",
+  name: 'work',
   components: {
     EmContainer,
     EmRow,
@@ -69,8 +74,8 @@ export default {
     EmPageText,
     EmHeading,
     EmCard,
-    EmSocialBar
-  }
+    EmSocialBar,
+  },
 };
 </script>
 

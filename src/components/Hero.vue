@@ -7,7 +7,7 @@
             <em-heading xlarge class="em-hero__title">
               Hey, I'm Elliot! A
               <vue-typer
-                :text='["developer","designer","DevOps engineer"]'
+                :text='["developer","designer","gamer"]'
                 :shuffle="true" /> from the UK.
             </em-heading>
           </div>

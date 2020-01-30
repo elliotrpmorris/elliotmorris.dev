@@ -6,8 +6,9 @@
           <em-heading mineShaft xlarge>About me</em-heading>
           <em-page-text mineShaft>
             I am a full stack developer from the UK,
-            currently working for a tech for good agency in Leeds.
-            Working on creating web apps and working with the latest tech.
+            currently working for Next in South Elmsall near Pontefract.
+            Working on creating web apps for internal warehouse systems using
+            .Net Core, EF Core and Angular.
           </em-page-text>
           <em-page-text mineShaft>
             As an advocate for all things web it is important to me
@@ -18,11 +19,13 @@
           </em-page-text>
           <em-heading mineShaft>Heres some tech that i like to use:</em-heading>
           <ul>
-            <li>HTML5, CSS3, JS</li>
+            <li>HTML5, CSS3, JS (ES6), Node</li>
+            <li>Angular, Angular.js</li>
             <li>Vue.js</li>
             <li>React</li>
-            <li>.Net (C#), Umbraco</li>
+            <li>.Net (C#), .Net Core, EF, Umbraco</li>
             <li>Php, Laravel, Wordpress, Statamic</li>
+            <li>AWS, Azure, Git, Trello</li>
           </ul>
         </em-card>
       </em-column>
@@ -31,23 +34,23 @@
 </template>
 
 <script>
-import EmContainer from "@/components/Container.vue";
-import EmRow from "@/components/Row.vue";
-import EmColumn from "@/components/Column.vue";
-import EmPageText from "@/components/PageText.vue";
-import EmHeading from "@/components/Heading.vue";
-import EmCard from "@/components/Card.vue";
+import EmContainer from '@/components/Container.vue';
+import EmRow from '@/components/Row.vue';
+import EmColumn from '@/components/Column.vue';
+import EmPageText from '@/components/PageText.vue';
+import EmHeading from '@/components/Heading.vue';
+import EmCard from '@/components/Card.vue';
 
 export default {
-  name: "about",
+  name: 'about',
   components: {
     EmContainer,
     EmRow,
     EmColumn,
     EmPageText,
     EmHeading,
-    EmCard
-  }
+    EmCard,
+  },
 };
 </script>
 

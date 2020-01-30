@@ -6,23 +6,23 @@
 
 <script>
 export default {
-  name: "container",
+  name: 'container',
 
   props: {
     fluid: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
 
   computed: {
     classes() {
       return {
-        "grid-container--fluid": this.fluid
+        'grid-container--fluid': this.fluid,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
