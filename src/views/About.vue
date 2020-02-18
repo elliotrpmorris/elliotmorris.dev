@@ -17,6 +17,14 @@
             as well as achieving the best performance and producing
             top quality code.
           </em-page-text>
+          <em-heading mineShaft>Current work</em-heading>
+          <em-page-text mineShaft>
+            Now working on implementing better ways of working such as migrating old tfvc
+            projects into git,
+            creating a ‘welcome to angular’ talk to educate other developers on how to use it.
+            As well as creating proof of concepts for using docker containers that get auto deployed
+            via azure dev ops.
+          </em-page-text>
           <em-heading mineShaft>Heres some tech that i like to use:</em-heading>
           <ul>
             <li>HTML5, CSS3, JS (ES6), Node</li>
