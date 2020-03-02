@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d280523c-3f44-4fab-abeb-e348062d24a8/deploy-status)](https://app.netlify.com/sites/jolly-kowalevski-ec74ea/deploys)
 # Laravel mix boilerplate
 
 This is going to be used as a base for front end projects. In this boilerplate it includes SASS with the SCSS syntax, source maps for the SCSS files, a hot reloading live server, copying of assets such as SVG's and the use of PostHTML with the 'includes' plugin allowing you to separate your HTML into partials for making maintainable code.
