@@ -44,6 +44,18 @@
       </em-column>
       <em-column six>
         <em-card alto>
+          <em-heading large mineShaft>Clandestine Labs</em-heading>
+          <em-page-text>
+            This site is built in react, it acts as information site for
+            freelance projects i work on such as website development &
+            website hosting.
+            <hr>
+            <a class="link" href="https://labs.clandestine.tech">View Site!</a>
+          </em-page-text>
+        </em-card>
+      </em-column>
+      <em-column six>
+        <em-card alto>
           <em-heading large mineShaft>Want to see your project here?</em-heading>
           <em-page-text>
             Need help with a cool project?
